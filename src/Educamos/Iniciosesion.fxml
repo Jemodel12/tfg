@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="iniciosesion" prefHeight="547.0" prefWidth="411.0" style="-fx-background-color: #00005B;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Educamos.IniciosesionController">
+   <children>
+      <Pane layoutX="24.0" layoutY="136.0" prefHeight="388.0" prefWidth="362.0" styleClass="sesion" stylesheets="@css.css">
+         <children>
+            <Label layoutX="16.0" layoutY="88.0" prefHeight="35.0" prefWidth="334.0" styleClass="labelsesion" stylesheets="@css.css" text="        Correo Electrónico" textAlignment="CENTER" textFill="#030303">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usuario" layoutX="16.0" layoutY="123.0" prefHeight="43.0" prefWidth="334.0" promptText="UsuarioEducamos@educastillalamancha.es" styleClass="usuarioycontrasena">
+               <font>
+                  <Font size="16.0" />
+               </font></TextField>
+            <PasswordField fx:id="contrasenanover" layoutX="16.0" layoutY="233.0" prefHeight="43.0" prefWidth="334.0" promptText="********" styleClass="usuarioycontrasena">
+               <font>
+                  <Font size="16.0" />
+               </font></PasswordField>
+            <Label layoutX="16.0" layoutY="198.0" prefHeight="35.0" prefWidth="334.0" styleClass="labelsesion" stylesheets="@css.css" text="          Contraseña" textFill="#030303">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="entrar" layoutX="26.0" layoutY="306.0" mnemonicParsing="false" onMouseClicked="#entrar" prefHeight="51.0" prefWidth="314.0" styleClass="boton" text="Entrar" textFill="#030303">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <TextField fx:id="contrasenaver" layoutX="16.0" layoutY="233.0" prefHeight="43.0" prefWidth="334.0" promptText="********" styleClass="usuarioycontrasena" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="35.0" layoutY="7.0" text="BIENVENIDO" textFill="#030303">
+               <font>
+                  <Font name="System Bold Italic" size="48.0" />
+               </font>
+            </Label>
+            <Pane fx:id="panelver" layoutX="223.0" layoutY="205.0" prefHeight="24.0" prefWidth="38.0" styleClass="vercontrasena" stylesheets="@css.css">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="7.0" onMouseClicked="#vercontrasena" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagen/ver.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="panelnover" layoutX="223.0" layoutY="205.0" onMouseClicked="#novercontrasena" prefHeight="24.0" prefWidth="38.0" styleClass="vercontrasena" stylesheets="@css.css" visible="false">
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="26.0" layoutX="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagen/no%20ver.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <ImageView fx:id="educa" fitHeight="76.0" fitWidth="362.0" layoutX="24.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagen/titulo.png" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="24.0" prefWidth="411.0" styleClass="barraventana" stylesheets="@css.css">
+         <children>
+            <Pane fx:id="cerrar" layoutX="373.0" onMouseClicked="#cerrar" prefHeight="24.0" prefWidth="38.0" styleClass="salir" stylesheets="@css.css">
+               <children>
+                  <ImageView fitHeight="18.0" fitWidth="26.0" layoutX="11.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagen/x.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="335.0" onMouseClicked="#mini" prefHeight="24.0" prefWidth="38.0" styleClass="mini" stylesheets="@css.css">
+               <children>
+                  <ImageView fitHeight="18.0" fitWidth="26.0" layoutX="10.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagen/mini.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane onMouseClicked="#entrarayuda" prefHeight="24.0" prefWidth="38.0" styleClass="mini" stylesheets="@css.css">
+               <children>
+                  <ImageView fitHeight="18.0" fitWidth="26.0" layoutX="10.0" layoutY="3.0" onMouseClicked="#entrarayuda" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagen/ayuda.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

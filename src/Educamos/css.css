@@ -1,0 +1,145 @@
+
+.campana:hover{
+    -fx-background-color: red;
+    -fx-background-radius: 30 30 30 30;
+}
+.campana:pressed{
+    -fx-background-color: #00005B;
+    
+}
+.boton{
+    -fx-background-color: yellow;
+    -fx-background-radius: 10 10 10 10;
+}
+.boton:hover{
+    -fx-background-color: #FFC300;
+    -fx-background-radius: 10 10 10 10;
+}
+.boton:pressed{
+    -fx-background-color: yellow;
+    
+}
+.botoncerrar{
+    -fx-background-color: red;
+    -fx-background-radius: 10 10 10 10;
+}
+.botoncerrar:hover{
+    -fx-background-color: #AD0000;
+    -fx-background-radius: 10 10 10 10;
+}
+.botoncerrar:pressed{
+    -fx-background-color: red;
+    -fx-background-radius: 10 10 10 10;
+    
+}
+.botonasignatura{
+    -fx-background-color: white;
+    -fx-background-radius: 10 10 10 10;
+}
+.botonasignatura:hover{
+    -fx-background-color: yellow;
+    -fx-background-radius: 10 10 10 10;
+}
+.botonasignatura:pressed{
+    -fx-background-color: white;
+    
+}
+.arriba{
+    -fx-background-color: #00005B;
+}
+.izquierda{
+    -fx-background-color: #000033;
+}
+.centro{
+    -fx-background-color: white;
+}
+.barra:hover{
+     -fx-background-color: white;
+}
+.barra:pressed{
+    -fx-background-color: #000033;
+    
+}
+.barrato:hover{
+     -fx-background-color: white;
+     -fx-background-radius: 50 50 50 50;
+}
+.barrato:pressed{
+    -fx-background-color: #000033;
+    -fx-background-radius: 50 50 50 50;
+}
+.frase{
+    -fx-background-color: #3198EA;
+}
+.sesion{
+    -fx-background-color: #008EFF;
+    -fx-background-radius: 30 0 30 0;
+}
+.labelsesion{
+    -fx-background-color: #62A7CC;
+    -fx-background-radius: 30 30 0 0;
+}
+.salir{
+     -fx-background-color: red;
+}
+.salir:hover{
+     -fx-background-color: darkred;
+}
+.salir:pressed{
+    -fx-background-color: red;
+    
+}
+.opcionportal:hover{
+    -fx-background-color: #00005B;
+    
+}
+.barraventana{
+     -fx-background-color: #000283;
+}
+.iniciosalir:hover{
+     -fx-background-color: #00005B;
+     -fx-background-radius: 50 50 50 50;
+}
+.iniciosalir:pressed{
+    -fx-background-color: white;
+    
+}
+.mini:hover{
+     -fx-background-color: #00005B;
+}
+.mini:pressed{
+    -fx-background-color: #000283;
+    
+}
+.vercontrasena:hover{
+     -fx-background-color: #FFFFFF;
+     -fx-background-radius: 20 20 20 20;
+}
+.vercontrasena:pressed{
+    -fx-background-color: #62A7CC;
+    
+}
+.asignaturas{
+    -fx-background-color: yellow;
+    -fx-background-radius: 10 10 10 10;
+}
+.asignaturas:hover{
+    -fx-background-color: #FFC300;
+    -fx-background-radius: 10 10 10 10;
+}
+.asignaturas:pressed{
+    -fx-background-color: yellow;
+    -fx-background-radius: 10 10 10 10;
+}
+.usuarioycontrasena{
+    -fx-background-color: #FFFFFF;
+    -fx-border-width: 4;
+    -fx-border-radius: 0 0  12 12;
+    -fx-background-radius: 0 0 15 15;
+    -fx-border-color: #62A7CC; 
+}
+.usuarioycontrasena:Hover{
+    -fx-background-color: yellow;
+    -fx-background-radius: 10 10 10 10;
+}
+
